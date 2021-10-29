@@ -26,7 +26,7 @@ window사용자중 build시 아래와 같이 출력될 경우
 설정 > Docker Engine가서 buildkit true -> false으로 바꾸면 아래와 같이  container id 까지 출력됩니다.
 
 ```bash
-λ docker rbuild --tag hello:1.0.0 .
+λ docker build --tag hello:1.0.0 .
 Sending build context to Docker daemon  2.048kB
 Step 1/2 : FROM alpine
 latest: Pulling from library/alpine
